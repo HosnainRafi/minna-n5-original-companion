@@ -1,0 +1,88 @@
+[1mdiff --git a/android-app-flutter/lib/features/minna/minna_book_page.dart b/android-app-flutter/lib/features/minna/minna_book_page.dart[m
+[1mindex 372eaa2..6623f1a 100644[m
+[1m--- a/android-app-flutter/lib/features/minna/minna_book_page.dart[m
+[1m+++ b/android-app-flutter/lib/features/minna/minna_book_page.dart[m
+[36m@@ -28,6 +28,8 @@[m [mclass _MinnaBookPageState extends State<MinnaBookPage> {[m
+         return MinnaData.loadListening();[m
+       case 'readable':[m
+         return MinnaData.loadReadable();[m
+[32m+[m[32m      case 'main_textbook':[m
+[32m+[m[32m        return MinnaData.loadMainTextbook();[m
+       case 'workbook':[m
+       default:[m
+         return MinnaData.loadWorkbook();[m
+[1mdiff --git a/android-app-flutter/lib/features/minna/minna_data.dart b/android-app-flutter/lib/features/minna/minna_data.dart[m
+[1mindex a5197c1..33005c4 100644[m
+[1m--- a/android-app-flutter/lib/features/minna/minna_data.dart[m
+[1m+++ b/android-app-flutter/lib/features/minna/minna_data.dart[m
+[36m@@ -53,6 +53,7 @@[m [mclass MinnaData {[m
+   static const _listeningJson = 'assets/data/minna/listening_task25_answers.json';[m
+   static const _workbookJson = 'assets/data/minna/standard_workbook_answers.json';[m
+   static const _readableJson = 'assets/data/minna/readable_topics_answers.json';[m
+[32m+[m[32m  static const _mainTextbookJson = 'assets/data/minna/main_textbook_answers.json';[m
+ [m
+   static Future<Map<String, dynamic>> _load(String path) async {[m
+     final s = await rootBundle.loadString(path);[m
+[36m@@ -171,6 +172,42 @@[m [mclass MinnaData {[m
+     );[m
+   }[m
+ [m
+[32m+[m[32m  /// Main textbook answer adapter — lessons 1..25, Renshuu B/C and Mondai.[m
+[32m+[m[32m  /// The canonical export retains richer question metadata; this loader exposes[m
+[32m+[m[32m  /// the nested answer-tree shape used by the existing Minna lesson renderer.[m
+[32m+[m[32m  static Future<MinnaBook> loadMainTextbook() async {[m
+[32m+[m[32m    final j = await _load(_mainTextbookJson);[m
+[32m+[m[32m    final lessons = (j['lessons'] as List? ?? const []).map((l) {[m
+[32m+[m[32m      final m = l as Map<String, dynamic>;[m
+[32m+[m[32m      final lesson = (m['lesson'] ?? '').toString();[m
+[32m+[m[32m      final sections = (m['sections'] as List? ?? const []).map((s) {[m
+[32m+[m[32m        final sm = s as Map<String, dynamic>;[m
+[32m+[m[32m        final nodes = (sm['items'] as List? ?? const []).map((it) {[m
+[32m+[m[32m          final im = it as Map<String, dynamic>;[m
+[32m+[m[32m          final children = (im['items'] as List? ?? const []).map((sub) {[m
+[32m+[m[32m            final subm = sub as Map<String, dynamic>;[m
+[32m+[m[32m            return MinnaNode([m
+[32m+[m[32m              label: (subm['item'] ?? '').toString(),[m
+[32m+[m[32m              answer: (subm['answer'] ?? '').toString(),[m
+[32m+[m[32m            );[m
+[32m+[m[32m          }).toList();[m
+[32m+[m[32m          return MinnaNode(label: (im['question'] ?? '').toString(), children: children);[m
+[32m+[m[32m        }).toList();[m
+[32m+[m[32m        final rawAudio = sm['audioAsset'];[m
+[32m+[m[32m        final audioAsset = rawAudio is String && rawAudio.isNotEmpty ? rawAudio : null;[m
+[32m+[m[32m        return MinnaSection(label: (sm['section'] ?? 'Answers').toString(), nodes: nodes, audioAsset: audioAsset);[m
+[32m+[m[32m      }).toList();[m
+[32m+[m[32m      return MinnaLesson(id: lesson, title: 'Main Textbook — Lesson $lesson', sections: sections);[m
+[32m+[m[32m    }).toList();[m
+[32m+[m[32m    return MinnaBook([m
+[32m+[m[32m      id: 'main_textbook',[m
+[32m+[m[32m      title: 'Minna no Nihongo Elementary I — Main Textbook Answers',[m
+[32m+[m[32m      titleJa: 'みんなの日本語 初級Ⅰ 本冊 解答',[m
+[32m+[m[32m      description: 'Answer records for Renshuu B/C and Mondai, with lesson-level listening references.',[m
+[32m+[m[32m      lessons: lessons,[m
+[32m+[m[32m    );[m
+[32m+[m[32m  }[m
+[32m+[m
+   /// 25 Readable Topics — readings 26..50, part -> question -> answers.[m
+   static Future<MinnaBook> loadReadable() async {[m
+     final j = await _load(_readableJson);[m
+[1mdiff --git a/android-app-flutter/lib/features/minna/minna_hub_page.dart b/android-app-flutter/lib/features/minna/minna_hub_page.dart[m
+[1mindex 9b5f5ee..3e66847 100644[m
+[1m--- a/android-app-flutter/lib/features/minna/minna_hub_page.dart[m
+[1m+++ b/android-app-flutter/lib/features/minna/minna_hub_page.dart[m
+[36m@@ -28,6 +28,15 @@[m [mclass MinnaHubPage extends StatelessWidget {[m
+             bgColor: AppTheme.enjiSoft,[m
+             bookId: 'workbook',[m
+           ),[m
+[32m+[m[32m          _BookCard([m
+[32m+[m[32m            icon: Icons.menu_book_outlined,[m
+[32m+[m[32m            title: 'Main Textbook Answers',[m
+[32m+[m[32m            titleJa: '本冊 解答',[m
+[32m+[m[32m            desc: 'Renshuu B/C + Mondai · audio-linked',[m
+[32m+[m[32m            color: AppTheme.indigo,[m
+[32m+[m[32m            bgColor: AppTheme.indigoSoft,[m
+[32m+[m[32m            bookId: 'main_textbook',[m
+[32m+[m[32m          ),[m
+           _BookCard([m
+             icon: Icons.headphones_outlined,[m
+             title: 'Listening Tasks 25',[m

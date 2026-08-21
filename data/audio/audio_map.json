@@ -1,0 +1,813 @@
+{
+  "lessons": [
+    {
+      "lesson": 1,
+      "track_count": 4,
+      "tracks": [
+        {
+          "track_number": 1,
+          "filename": "minna_shokyu_1_001.mp3",
+          "duration_seconds": 24,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_001.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-01/minna_shokyu_1_001.mp3"
+        },
+        {
+          "track_number": 2,
+          "filename": "minna_shokyu_1_002.mp3",
+          "duration_seconds": 31,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_002.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-01/minna_shokyu_1_002.mp3"
+        },
+        {
+          "track_number": 3,
+          "filename": "minna_shokyu_1_003.mp3",
+          "duration_seconds": 30,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_003.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-01/minna_shokyu_1_003.mp3"
+        },
+        {
+          "track_number": 4,
+          "filename": "minna_shokyu_1_004.mp3",
+          "duration_seconds": 77,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_004.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-01/minna_shokyu_1_004.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_004.mp3"
+    },
+    {
+      "lesson": 2,
+      "track_count": 4,
+      "tracks": [
+        {
+          "track_number": 5,
+          "filename": "minna_shokyu_1_005.mp3",
+          "duration_seconds": 37,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_005.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-02/minna_shokyu_1_005.mp3"
+        },
+        {
+          "track_number": 6,
+          "filename": "minna_shokyu_1_006.mp3",
+          "duration_seconds": 29,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_006.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-02/minna_shokyu_1_006.mp3"
+        },
+        {
+          "track_number": 7,
+          "filename": "minna_shokyu_1_007.mp3",
+          "duration_seconds": 36,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_007.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-02/minna_shokyu_1_007.mp3"
+        },
+        {
+          "track_number": 8,
+          "filename": "minna_shokyu_1_008.mp3",
+          "duration_seconds": 46,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_008.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-02/minna_shokyu_1_008.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_008.mp3"
+    },
+    {
+      "lesson": 3,
+      "track_count": 3,
+      "tracks": [
+        {
+          "track_number": 9,
+          "filename": "minna_shokyu_1_009.mp3",
+          "duration_seconds": 38,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_009.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-03/minna_shokyu_1_009.mp3"
+        },
+        {
+          "track_number": 10,
+          "filename": "minna_shokyu_1_010.mp3",
+          "duration_seconds": 30,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_010.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-03/minna_shokyu_1_010.mp3"
+        },
+        {
+          "track_number": 11,
+          "filename": "minna_shokyu_1_011.mp3",
+          "duration_seconds": 81,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_011.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-03/minna_shokyu_1_011.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_011.mp3"
+    },
+    {
+      "lesson": 4,
+      "track_count": 5,
+      "tracks": [
+        {
+          "track_number": 12,
+          "filename": "minna_shokyu_1_012.mp3",
+          "duration_seconds": 40,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_012.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-04/minna_shokyu_1_012.mp3"
+        },
+        {
+          "track_number": 13,
+          "filename": "minna_shokyu_1_013.mp3",
+          "duration_seconds": 31,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_013.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-04/minna_shokyu_1_013.mp3"
+        },
+        {
+          "track_number": 14,
+          "filename": "minna_shokyu_1_014.mp3",
+          "duration_seconds": 26,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_014.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-04/minna_shokyu_1_014.mp3"
+        },
+        {
+          "track_number": 15,
+          "filename": "minna_shokyu_1_015.mp3",
+          "duration_seconds": 61,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_015.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-04/minna_shokyu_1_015.mp3"
+        },
+        {
+          "track_number": 16,
+          "filename": "minna_shokyu_1_016.mp3",
+          "duration_seconds": 57,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_016.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-04/minna_shokyu_1_016.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_016.mp3"
+    },
+    {
+      "lesson": 5,
+      "track_count": 4,
+      "tracks": [
+        {
+          "track_number": 17,
+          "filename": "minna_shokyu_1_017.mp3",
+          "duration_seconds": 50,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_017.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-05/minna_shokyu_1_017.mp3"
+        },
+        {
+          "track_number": 18,
+          "filename": "minna_shokyu_1_018.mp3",
+          "duration_seconds": 30,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_018.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-05/minna_shokyu_1_018.mp3"
+        },
+        {
+          "track_number": 19,
+          "filename": "minna_shokyu_1_019.mp3",
+          "duration_seconds": 24,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_019.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-05/minna_shokyu_1_019.mp3"
+        },
+        {
+          "track_number": 20,
+          "filename": "minna_shokyu_1_020.mp3",
+          "duration_seconds": 55,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_020.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-05/minna_shokyu_1_020.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_020.mp3"
+    },
+    {
+      "lesson": 6,
+      "track_count": 3,
+      "tracks": [
+        {
+          "track_number": 21,
+          "filename": "minna_shokyu_1_021.mp3",
+          "duration_seconds": 28,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_021.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-06/minna_shokyu_1_021.mp3"
+        },
+        {
+          "track_number": 22,
+          "filename": "minna_shokyu_1_022.mp3",
+          "duration_seconds": 30,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_022.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-06/minna_shokyu_1_022.mp3"
+        },
+        {
+          "track_number": 23,
+          "filename": "minna_shokyu_1_023.mp3",
+          "duration_seconds": 93,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_023.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-06/minna_shokyu_1_023.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_023.mp3"
+    },
+    {
+      "lesson": 7,
+      "track_count": 4,
+      "tracks": [
+        {
+          "track_number": 24,
+          "filename": "minna_shokyu_1_024.mp3",
+          "duration_seconds": 46,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_024.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-07/minna_shokyu_1_024.mp3"
+        },
+        {
+          "track_number": 25,
+          "filename": "minna_shokyu_1_025.mp3",
+          "duration_seconds": 33,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_025.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-07/minna_shokyu_1_025.mp3"
+        },
+        {
+          "track_number": 26,
+          "filename": "minna_shokyu_1_026.mp3",
+          "duration_seconds": 23,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_026.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-07/minna_shokyu_1_026.mp3"
+        },
+        {
+          "track_number": 27,
+          "filename": "minna_shokyu_1_027.mp3",
+          "duration_seconds": 57,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_027.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-07/minna_shokyu_1_027.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_027.mp3"
+    },
+    {
+      "lesson": 8,
+      "track_count": 4,
+      "tracks": [
+        {
+          "track_number": 28,
+          "filename": "minna_shokyu_1_028.mp3",
+          "duration_seconds": 42,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_028.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-08/minna_shokyu_1_028.mp3"
+        },
+        {
+          "track_number": 29,
+          "filename": "minna_shokyu_1_029.mp3",
+          "duration_seconds": 29,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_029.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-08/minna_shokyu_1_029.mp3"
+        },
+        {
+          "track_number": 30,
+          "filename": "minna_shokyu_1_030.mp3",
+          "duration_seconds": 23,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_030.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-08/minna_shokyu_1_030.mp3"
+        },
+        {
+          "track_number": 31,
+          "filename": "minna_shokyu_1_031.mp3",
+          "duration_seconds": 60,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_031.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-08/minna_shokyu_1_031.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_031.mp3"
+    },
+    {
+      "lesson": 9,
+      "track_count": 3,
+      "tracks": [
+        {
+          "track_number": 32,
+          "filename": "minna_shokyu_1_032.mp3",
+          "duration_seconds": 48,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_032.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-09/minna_shokyu_1_032.mp3"
+        },
+        {
+          "track_number": 33,
+          "filename": "minna_shokyu_1_033.mp3",
+          "duration_seconds": 30,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_033.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-09/minna_shokyu_1_033.mp3"
+        },
+        {
+          "track_number": 34,
+          "filename": "minna_shokyu_1_034.mp3",
+          "duration_seconds": 96,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_034.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-09/minna_shokyu_1_034.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_034.mp3"
+    },
+    {
+      "lesson": 10,
+      "track_count": 4,
+      "tracks": [
+        {
+          "track_number": 35,
+          "filename": "minna_shokyu_1_035.mp3",
+          "duration_seconds": 39,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_035.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-10/minna_shokyu_1_035.mp3"
+        },
+        {
+          "track_number": 36,
+          "filename": "minna_shokyu_1_036.mp3",
+          "duration_seconds": 31,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_036.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-10/minna_shokyu_1_036.mp3"
+        },
+        {
+          "track_number": 37,
+          "filename": "minna_shokyu_1_037.mp3",
+          "duration_seconds": 52,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_037.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-10/minna_shokyu_1_037.mp3"
+        },
+        {
+          "track_number": 38,
+          "filename": "minna_shokyu_1_038.mp3",
+          "duration_seconds": 43,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_038.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-10/minna_shokyu_1_038.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_038.mp3"
+    },
+    {
+      "lesson": 11,
+      "track_count": 4,
+      "tracks": [
+        {
+          "track_number": 39,
+          "filename": "minna_shokyu_1_039.mp3",
+          "duration_seconds": 46,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_039.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-11/minna_shokyu_1_039.mp3"
+        },
+        {
+          "track_number": 40,
+          "filename": "minna_shokyu_1_040.mp3",
+          "duration_seconds": 33,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_040.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-11/minna_shokyu_1_040.mp3"
+        },
+        {
+          "track_number": 41,
+          "filename": "minna_shokyu_1_041.mp3",
+          "duration_seconds": 21,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_041.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-11/minna_shokyu_1_041.mp3"
+        },
+        {
+          "track_number": 42,
+          "filename": "minna_shokyu_1_042.mp3",
+          "duration_seconds": 61,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_042.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-11/minna_shokyu_1_042.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_042.mp3"
+    },
+    {
+      "lesson": 12,
+      "track_count": 3,
+      "tracks": [
+        {
+          "track_number": 43,
+          "filename": "minna_shokyu_1_043.mp3",
+          "duration_seconds": 36,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_043.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-12/minna_shokyu_1_043.mp3"
+        },
+        {
+          "track_number": 44,
+          "filename": "minna_shokyu_1_044.mp3",
+          "duration_seconds": 32,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_044.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-12/minna_shokyu_1_044.mp3"
+        },
+        {
+          "track_number": 45,
+          "filename": "minna_shokyu_1_045.mp3",
+          "duration_seconds": 101,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_045.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-12/minna_shokyu_1_045.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_045.mp3"
+    },
+    {
+      "lesson": 13,
+      "track_count": 3,
+      "tracks": [
+        {
+          "track_number": 46,
+          "filename": "minna_shokyu_1_046.mp3",
+          "duration_seconds": 58,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_046.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-13/minna_shokyu_1_046.mp3"
+        },
+        {
+          "track_number": 47,
+          "filename": "minna_shokyu_1_047.mp3",
+          "duration_seconds": 34,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_047.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-13/minna_shokyu_1_047.mp3"
+        },
+        {
+          "track_number": 48,
+          "filename": "minna_shokyu_1_048.mp3",
+          "duration_seconds": 101,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_048.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-13/minna_shokyu_1_048.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_048.mp3"
+    },
+    {
+      "lesson": 14,
+      "track_count": 4,
+      "tracks": [
+        {
+          "track_number": 49,
+          "filename": "minna_shokyu_1_049.mp3",
+          "duration_seconds": 53,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_049.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-14/minna_shokyu_1_049.mp3"
+        },
+        {
+          "track_number": 50,
+          "filename": "minna_shokyu_1_050.mp3",
+          "duration_seconds": 30,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_050.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-14/minna_shokyu_1_050.mp3"
+        },
+        {
+          "track_number": 51,
+          "filename": "minna_shokyu_1_051.mp3",
+          "duration_seconds": 27,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_051.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-14/minna_shokyu_1_051.mp3"
+        },
+        {
+          "track_number": 52,
+          "filename": "minna_shokyu_1_052.mp3",
+          "duration_seconds": 61,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_052.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-14/minna_shokyu_1_052.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_052.mp3"
+    },
+    {
+      "lesson": 15,
+      "track_count": 3,
+      "tracks": [
+        {
+          "track_number": 53,
+          "filename": "minna_shokyu_1_053.mp3",
+          "duration_seconds": 36,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_053.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-15/minna_shokyu_1_053.mp3"
+        },
+        {
+          "track_number": 54,
+          "filename": "minna_shokyu_1_054.mp3",
+          "duration_seconds": 32,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_054.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-15/minna_shokyu_1_054.mp3"
+        },
+        {
+          "track_number": 55,
+          "filename": "minna_shokyu_1_055.mp3",
+          "duration_seconds": 93,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_055.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-15/minna_shokyu_1_055.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_055.mp3"
+    },
+    {
+      "lesson": 16,
+      "track_count": 4,
+      "tracks": [
+        {
+          "track_number": 56,
+          "filename": "minna_shokyu_1_056.mp3",
+          "duration_seconds": 42,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_056.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-16/minna_shokyu_1_056.mp3"
+        },
+        {
+          "track_number": 57,
+          "filename": "minna_shokyu_1_057.mp3",
+          "duration_seconds": 32,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_057.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-16/minna_shokyu_1_057.mp3"
+        },
+        {
+          "track_number": 58,
+          "filename": "minna_shokyu_1_058.mp3",
+          "duration_seconds": 31,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_058.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-16/minna_shokyu_1_058.mp3"
+        },
+        {
+          "track_number": 59,
+          "filename": "minna_shokyu_1_059.mp3",
+          "duration_seconds": 64,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_059.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-16/minna_shokyu_1_059.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_059.mp3"
+    },
+    {
+      "lesson": 17,
+      "track_count": 3,
+      "tracks": [
+        {
+          "track_number": 60,
+          "filename": "minna_shokyu_1_060.mp3",
+          "duration_seconds": 41,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_060.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-17/minna_shokyu_1_060.mp3"
+        },
+        {
+          "track_number": 61,
+          "filename": "minna_shokyu_1_061.mp3",
+          "duration_seconds": 35,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_061.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-17/minna_shokyu_1_061.mp3"
+        },
+        {
+          "track_number": 62,
+          "filename": "minna_shokyu_1_062.mp3",
+          "duration_seconds": 108,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_062.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-17/minna_shokyu_1_062.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_062.mp3"
+    },
+    {
+      "lesson": 18,
+      "track_count": 3,
+      "tracks": [
+        {
+          "track_number": 63,
+          "filename": "minna_shokyu_1_063.mp3",
+          "duration_seconds": 36,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_063.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-18/minna_shokyu_1_063.mp3"
+        },
+        {
+          "track_number": 64,
+          "filename": "minna_shokyu_1_064.mp3",
+          "duration_seconds": 32,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_064.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-18/minna_shokyu_1_064.mp3"
+        },
+        {
+          "track_number": 65,
+          "filename": "minna_shokyu_1_065.mp3",
+          "duration_seconds": 117,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_065.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-18/minna_shokyu_1_065.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_065.mp3"
+    },
+    {
+      "lesson": 19,
+      "track_count": 3,
+      "tracks": [
+        {
+          "track_number": 66,
+          "filename": "minna_shokyu_1_066.mp3",
+          "duration_seconds": 47,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_066.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-19/minna_shokyu_1_066.mp3"
+        },
+        {
+          "track_number": 67,
+          "filename": "minna_shokyu_1_067.mp3",
+          "duration_seconds": 26,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_067.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-19/minna_shokyu_1_067.mp3"
+        },
+        {
+          "track_number": 68,
+          "filename": "minna_shokyu_1_068.mp3",
+          "duration_seconds": 103,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_068.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-19/minna_shokyu_1_068.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_068.mp3"
+    },
+    {
+      "lesson": 20,
+      "track_count": 3,
+      "tracks": [
+        {
+          "track_number": 69,
+          "filename": "minna_shokyu_1_069.mp3",
+          "duration_seconds": 32,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_069.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-20/minna_shokyu_1_069.mp3"
+        },
+        {
+          "track_number": 70,
+          "filename": "minna_shokyu_1_070.mp3",
+          "duration_seconds": 30,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_070.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-20/minna_shokyu_1_070.mp3"
+        },
+        {
+          "track_number": 71,
+          "filename": "minna_shokyu_1_071.mp3",
+          "duration_seconds": 102,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_071.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-20/minna_shokyu_1_071.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_071.mp3"
+    },
+    {
+      "lesson": 21,
+      "track_count": 3,
+      "tracks": [
+        {
+          "track_number": 72,
+          "filename": "minna_shokyu_1_072.mp3",
+          "duration_seconds": 50,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_072.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-21/minna_shokyu_1_072.mp3"
+        },
+        {
+          "track_number": 73,
+          "filename": "minna_shokyu_1_073.mp3",
+          "duration_seconds": 33,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_073.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-21/minna_shokyu_1_073.mp3"
+        },
+        {
+          "track_number": 74,
+          "filename": "minna_shokyu_1_074.mp3",
+          "duration_seconds": 110,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_074.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-21/minna_shokyu_1_074.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_074.mp3"
+    },
+    {
+      "lesson": 22,
+      "track_count": 3,
+      "tracks": [
+        {
+          "track_number": 75,
+          "filename": "minna_shokyu_1_075.mp3",
+          "duration_seconds": 43,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_075.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-22/minna_shokyu_1_075.mp3"
+        },
+        {
+          "track_number": 76,
+          "filename": "minna_shokyu_1_076.mp3",
+          "duration_seconds": 34,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_076.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-22/minna_shokyu_1_076.mp3"
+        },
+        {
+          "track_number": 77,
+          "filename": "minna_shokyu_1_077.mp3",
+          "duration_seconds": 96,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_077.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-22/minna_shokyu_1_077.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_077.mp3"
+    },
+    {
+      "lesson": 23,
+      "track_count": 4,
+      "tracks": [
+        {
+          "track_number": 78,
+          "filename": "minna_shokyu_1_078.mp3",
+          "duration_seconds": 48,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_078.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-23/minna_shokyu_1_078.mp3"
+        },
+        {
+          "track_number": 79,
+          "filename": "minna_shokyu_1_079.mp3",
+          "duration_seconds": 33,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_079.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-23/minna_shokyu_1_079.mp3"
+        },
+        {
+          "track_number": 80,
+          "filename": "minna_shokyu_1_080.mp3",
+          "duration_seconds": 38,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_080.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-23/minna_shokyu_1_080.mp3"
+        },
+        {
+          "track_number": 81,
+          "filename": "minna_shokyu_1_081.mp3",
+          "duration_seconds": 69,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_081.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-23/minna_shokyu_1_081.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_081.mp3"
+    },
+    {
+      "lesson": 24,
+      "track_count": 3,
+      "tracks": [
+        {
+          "track_number": 82,
+          "filename": "minna_shokyu_1_082.mp3",
+          "duration_seconds": 38,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_082.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-24/minna_shokyu_1_082.mp3"
+        },
+        {
+          "track_number": 83,
+          "filename": "minna_shokyu_1_083.mp3",
+          "duration_seconds": 39,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_083.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-24/minna_shokyu_1_083.mp3"
+        },
+        {
+          "track_number": 84,
+          "filename": "minna_shokyu_1_084.mp3",
+          "duration_seconds": 108,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_084.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-24/minna_shokyu_1_084.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_084.mp3"
+    },
+    {
+      "lesson": 25,
+      "track_count": 3,
+      "tracks": [
+        {
+          "track_number": 85,
+          "filename": "minna_shokyu_1_085.mp3",
+          "duration_seconds": 43,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_085.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-25/minna_shokyu_1_085.mp3"
+        },
+        {
+          "track_number": 86,
+          "filename": "minna_shokyu_1_086.mp3",
+          "duration_seconds": 35,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_086.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-25/minna_shokyu_1_086.mp3"
+        },
+        {
+          "track_number": 87,
+          "filename": "minna_shokyu_1_087.mp3",
+          "duration_seconds": 112,
+          "app_asset": "assets/audio/listening/minna_shokyu_1_087.mp3",
+          "resource_asset": "minna-no-nihongo-listening/lesson-25/minna_shokyu_1_087.mp3"
+        }
+      ],
+      "mondai_audio_policy": "The last official track in this lesson is used as the default Mondai/listening audio reference. Keep the full track list for manual verification when a lesson contains multiple listening sections.",
+      "default_mondai_audio": "assets/audio/listening/minna_shokyu_1_087.mp3"
+    }
+  ]
+}
